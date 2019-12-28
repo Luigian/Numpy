@@ -1,4 +1,4 @@
-<img src="resources/images/numpy1.png" width="1200">
+<img src="resources/images/numpy_banner.png" width="1200">
 
 # Numpy - 42 School Two-Day Project
 
@@ -36,4 +36,4 @@ Finally, once in Jupyter, upload the file notebook/numpy.ipynb and resources/ima
 
 ## Preview
 
-<img src="resources/images/numpy.png" width="1000">
+<img src="resources/images/numpy1.png" width="1000">
