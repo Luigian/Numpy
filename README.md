@@ -20,6 +20,4 @@ After the first week of the piscine, we had to -in a weekend– create a mini e-
 
 ## Preview
 
-<kbd><img src="resources/images/numpy.png" width="1000"></kbd>
-
-<kbd><img src="../resources/images/commerce_2.png" width="1000"></kbd>
+<img src="resources/images/numpy.png" width="1000">
