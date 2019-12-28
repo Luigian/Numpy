@@ -36,4 +36,4 @@ Finally, once in Jupyter, upload the file notebook/numpy.ipynb and resources/ima
 
 ## Preview
 
-<img src="resources/images/numypy.png" width="1000">
+<img src="resources/images/numpy.png" width="1000">
