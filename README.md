@@ -1,3 +1,5 @@
+<img src="resources/images/numpy_banner.png" width="1200">
+
 # Numpy - 42 School 2-Days Project
 
 ## Description
