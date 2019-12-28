@@ -1,0 +1,65 @@
+instalar brew
+instalar python 3 : brew install python
+instalar docker: brew install docker
+*VirtualBox must be installed also
+-----------------------------------------------------------------------------------
+If you're doing the Numpy rush and can't build the docker image from the provided Dockerfile it's probably because the link is old.
+From the github that the Dockerfile wgets from: 
+https://github.com/sgerrand/alpine-pkg-glibc
+
+*changing the link in the Dockerfile fixed the issue for me*
+
+-----------------------------------------------------------------------------------
+
+*To check the list of Docker Machine availables:
+docker-machine ls
+
+*To start Docker Machine via Homebrew, run:
+brew services start docker-machine
+
+*To create a default machine (if you don't have one, see: docker-machine ls):
+docker-machine create --driver virtualbox default
+
+*Then set-up the environment for the Docker client:
+eval "$(docker-machine env default)"
+
+*Then double-check by listing containers:
+docker ps
+
+*TO RESTART DOCKER
+docker-machine start
+eval "$(docker-machine env default)"
+docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
+
+-----------------------------------------------------------------------------------
+
+## ------ Dockerfile Usage --------
+# docker build -t numpy_rush .
+# mkdir notebooks
+# docker run -p 8800:8888 -v $(pwd)/notebooks:/notebooks numpy_rush
+# docker# <docker-host-ip>:8800/?token=...
+
+-----------------------------------------------------------------------------------
+
+To access the notebook, open this file in a browser:
+        file:///root/.local/share/jupyter/runtime/nbserver-1-open.html
+    Or copy and paste one of these URLs:
+        http://6fd37cd59ef6:8888/?token=4a238ae5abec497d4ea9817efc741d26bb6e89e31b5db0e5
+     or http://127.0.0.1:8888/?token=4a238ae5abec497d4ea9817efc741d26bb6e89e31b5db0e5
+
+------------------------------------------------------
+
+docker-machine ls   ------>   virtualbox   Running   tcp://192.168.99.100:2376
+change to:
+http://192.168.99.100:8800/?token=4a238ae5abec497d4ea9817efc741d26bb6e89e31b5db0e5
+http://192.168.99.100:8800/?token=17311e2e097603e8e916258c77f620f966437162e980f3e6
+http://192.168.99.100:8800/?token=946712237650d1a84df893a3bffed1fbd0e0d8e8669fb7cd
+http://192.168.99.100:8800/?token=034f1e8164e65bb1b89f376898831faa03aca054dc15300f
+
+192.168.99.100:2376
+-----------------------------------------------------------------------------------
+
+Is PIL the only way to manipulate image files ? are there ways to read, modify and plot image files without using PIL ?
+
+you can use import matplotlib.image as mpimg
+
