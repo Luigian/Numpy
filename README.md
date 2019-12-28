@@ -1,4 +1,4 @@
-<img src="resources/images/numpy_banner.png" width="1200">
+<img src="resources/images/numpy1.png" width="1200">
 
 # Numpy - 42 School Two-Day Project
 
