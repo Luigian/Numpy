@@ -1,8 +1,10 @@
 # Numpy - 42 School 2-Days Project
 
-### E-commerce
+## Description
 
-After the first week of the piscine, we had to -in a weekend– create a mini e-commerce online shop. This should cover products and users management with a well organized data base. Our e-commerce should allow a user to register, connect, add articles in his basket and validate his order. Once validated, the order must be visible from an administration section.
+The purpose of this mini-project was to reproduce different photography filters using Python programming language. Images are build by one or more matrixes (2D or 3D arrays), and changing the values of each character of theses matrixes is how we can affect the entire photo, pixel by pixel. 
+
+NumPy is a Python library for add support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
 
 ## Installation
 Python 3, Docker and VirtualBox must be installed.
@@ -28,13 +30,7 @@ Then, go to the web browser and paste this link.
 Finally, once in Jupyter, upload the file notebook/numpy.ipynb and resources/images/portrait.png
 
 ## Usage
-`Register` | Creates new user and password.
-
-`Login` | Start user session.
-
-`Shop` | Add items to the 'basket'.
-
-`MyAccount` | Change password.
+`Press 'Run'` | This executes the current code block.
 
 ## Preview
 
