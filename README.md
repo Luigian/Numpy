@@ -7,6 +7,9 @@ After the first week of the piscine, we had to -in a weekend– create a mini e-
 ## Installation
 Python 3, Docker and VirtualBox must be installed.
 
+Run the following commands:
+
+
 `docker-machine start` | Start the "default" virtual machine.
 
 `eval "$(docker-machine env default)"` | Set new IP addresses for started machines.
