@@ -32,7 +32,7 @@ Then, go to the web browser and paste this link.
 Finally, once in Jupyter, upload the file notebook/numpy.ipynb and resources/images/portrait.png
 
 ## Usage
-`Press 'Run'` | This executes the current code block.
+`Press 'Run'` | Executes the current code block.
 
 ## Preview
 
