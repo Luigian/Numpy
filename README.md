@@ -9,7 +9,6 @@ Python 3, Docker and VirtualBox must be installed.
 
 Run the following commands:
 
-
 `docker-machine start` | Start the "default" virtual machine.
 
 `eval "$(docker-machine env default)"` | Set new IP addresses for started machines.
@@ -18,14 +17,14 @@ Run the following commands:
 
 `docker-machine ls` | Check the list of docker machine availables.
 
-From the last two commands respectively, copy the token and the running virtual box IP address and replace the x's:
+From the last two commands respectively, copy the token and the running virtual box IP address and replace the x's in here:
 
 `http://xxx.xxx.xx.xxx:8800/?token=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx`
 
 Example:
 `http://192.168.99.100:8800/?token=034f1e8164e65bb1b89f376898831faa03aca054dc15300f`
 
-Then, go to the web browser and paste the link.
+Then, go to the web browser and paste this link.
 Finally upload to Jupyter the file notebook/numpy.ipynb and resources/images/portrait.png
 
 ## Usage
