@@ -25,7 +25,7 @@ Example:
 `http://192.168.99.100:8800/?token=034f1e8164e65bb1b89f376898831faa03aca054dc15300f`
 
 Then, go to the web browser and paste this link.
-Finally upload to Jupyter the file notebook/numpy.ipynb and resources/images/portrait.png
+Finally, once in Jupyter, upload the file notebook/numpy.ipynb and resources/images/portrait.png
 
 ## Usage
 `Register` | Creates new user and password.
