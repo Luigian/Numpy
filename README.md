@@ -37,3 +37,8 @@ Finally, once in Jupyter, upload the file notebook/numpy.ipynb and resources/ima
 ## Preview
 
 <img src="resources/images/numpy.png" width="1000">
+
+## Credits:
+
+[*Luis Sanchez*](https://www.linkedin.com/in/luis-sanchez-13bb3b189/)
+2019. Freemont, CA
